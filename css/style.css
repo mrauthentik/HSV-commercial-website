@@ -3364,27 +3364,92 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
       SUB BANNER
 ========================================================*/
 .sub-bnr {
-	background: url(../images/sub-bnr-bg.jpg) no-repeat;
+	background: no-repeat;
 	background-size: cover !important;
 	min-height: 610px;
 	text-align: center;
 	position: relative;
 }
+.sub-bnr-water{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/water-factory.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-bread{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/food.jpg);
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-bread p{
+  color: white;
+}
+.sub-bnr-books{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bookshop.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-provision{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/stock.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-about{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/store-house.jpg);
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-cart{
+	background: url(../images/slide-bg-1.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-bread .sub-bnr p{
+	color: #ffe119;
+}
+.sub-bnr-water .sub-bnr p{
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+}
+.sub-bnr-about .sub-bnr p{
+	color: #ffff;
+}
+.sub-bnr-cart .sub-bnr p{
+	color: royalblue;
+}
+.sub-bnr-books .sub-bnr p{
+	color: #ffe119;
+}
+.sub-bnr-provision .sub-bnr p{
+	color: #ffff;
+}
 .sub-bnr h4 {
-	font-size: 25px;
+	font-size: 27px;
 	color: #fff;
 	font-weight: bold;
 	letter-spacing: 6px;
 	margin-top: 0px;
 }
 .sub-bnr p {
-	color: #666666;
-	letter-spacing: 0px;
-	font-family: 'Playfair Display', serif;
-	font-size: 14px;
+	color: royalblue;
+	letter-spacing: 2px;
+	font-family: 'Poppins', serif;
+	font-size: 20px;
 	margin-top: 20px;
 	max-width: 590px;
 	margin: 0 auto;
+	
 }
 .sub-bnr .breadcrumb {
 	background: none;
