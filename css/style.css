@@ -3415,6 +3415,23 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	text-align: center;
 	position: relative;
 }
+.sub-bnr-checkout{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/sale.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-contact{
+	background: url(../images/cultur-img-2.jpg) ;
+	background-size: cover !important;
+	min-height: 610px;
+	text-align: center;
+	position: relative;
+}
+.sub-bnr-contact .sub-bnr p,.sub-bnr-checkout .sub-bnr p{
+	color: #ffe333;
+}
 .sub-bnr-bread .sub-bnr p{
 	color: #ffe119;
 }
